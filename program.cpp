@@ -8,6 +8,7 @@ class properties
 {
     public:
     int lines = INT32_MAX;
+    
     std::string getFile()
     {
         std::string fileName;
@@ -16,9 +17,9 @@ class properties
         fileName += ".py";
         return fileName;
     }
+    
     std::string fileName = getFile();
 };
-
 
 void write()
 {
