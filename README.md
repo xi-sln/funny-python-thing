@@ -9,4 +9,5 @@ when u give it make python file and will output if a number odd or even real
 <h1> Output example </h1>
 
 ![image](https://user-images.githubusercontent.com/77388034/225456722-190a631c-8abd-4ba5-8d43-be09b82f0b89.png)
+
 ignore that its like like 400k and he number is 200 whatever
