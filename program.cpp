@@ -3,32 +3,14 @@
 #include <string>
 #include <sstream>
 #include <windows.h>
-
-class properties
-{
-    public:
-    int lines = INT32_MAX;
-    
-    std::string getFile()
-    {
-        std::string fileName;
-        std::cout << "Enter file name: ";
-        std::cin >> fileName;
-        fileName += ".py";
-        return fileName;
-    }
-    
-    std::string fileName = getFile();
-};
+#include "properties.h"
 
 void write()
 {
     properties properties;
     int i = 0;
-
     double percentage = 0;
     int totalLines = INT32_MAX / 2; 
-
     std::ofstream outfile(properties.fileName);
     std::cout << "Creating solution for " << properties.fileName;
 
