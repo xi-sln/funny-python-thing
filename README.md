@@ -1,4 +1,4 @@
-hello bro ignore shit code i write in 0.2 nanosecon
+hello bro ignore bad code i write in 0.2 nanosecon
 
 u compile with whatever but when u run it will ask for thinggy file name
 
