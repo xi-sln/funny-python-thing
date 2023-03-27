@@ -1,7 +1,6 @@
 class properties
 {
     public:
-
     int lines = INT32_MAX;
     std::string getFile()
     {
