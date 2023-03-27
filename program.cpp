@@ -10,7 +10,7 @@ void write()
     properties properties;
     int i = 0;
     double percentage = 0;
-    int totalLines = INT32_MAX / 2; 
+    int totalLines = properties.lines / 2; 
     std::ofstream outfile(properties.fileName);
     std::cout << "Creating solution for " << properties.fileName;
 
