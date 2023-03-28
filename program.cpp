@@ -32,7 +32,7 @@ void write()
                 percentage = static_cast<double>(i) / totalLines * 100.0;
                 std::stringstream ss;
                 ss << "Progress: " << percentage << "%";
-                SetConsoleTitleA(ss.str().c_str());
+                SetConsoleTitleA(ss.str().c_str()); // thanks chatgpt for this line
                 std::cout << "Line: " << i << std::endl;
             }
         }
